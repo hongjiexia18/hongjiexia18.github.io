@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <!--- <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc. --->
+subtitle:
 
 profile:
   align: right
@@ -21,6 +21,8 @@ social: true # includes social icons at the bottom of the page
 I am a fifth-year Ph.D. at Boston University majoring in neurobiology. My research focuses on rats' decision-making, combining large-scale behavioral analysis and in vivo imaging. I am advised by [Dr. Ben Scott](https://www.scottcognitionlab.com/). 
 I earned my M.S. in neuroscience at Northwestern University. I was working in Dr. William Klein's lab where I studied the molecular basis of Alzheimer's disease, specifically on the relationship between amyloid beta oligomers and phosphorylated Tau in chicken embryos.
 I received my B.A. in biology from Boston University. 
+
+<!--- subtitle:  <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc. --->
 
  <!---  Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
