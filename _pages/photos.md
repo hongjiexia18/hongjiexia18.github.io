@@ -15,6 +15,7 @@ description: Personal photography journal
       <p class="photo-intro">城市的片刻，山野的呼吸。沿着光，收藏一路的风景。</p>
       <p class="photo-count" data-photo-count>{{ site.data.photos | size }} 张作品</p>
     </div>
+    <p class="photo-copyright">Photographs © Hongjie Xia. All rights reserved. Please do not copy, redistribute, or use these images without permission.</p>
   </header>
 
   <section class="photo-filters" aria-label="筛选摄影作品">

@@ -22,6 +22,11 @@
 
 </div>
 
+## License and photo rights
+
+The website's source code, configuration, and supporting scripts are released under the [MIT License](LICENSE).
+The photographs and other original visual works in this repository are © Hongjie Xia and are **not** covered by the MIT License. All rights are reserved; please do not copy, redistribute, or use them without permission.
+
 ## User community
 
 The vibrant community of **al-folio** users is growing!
