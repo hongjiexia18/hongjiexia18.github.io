@@ -4,13 +4,10 @@
     "image": "",
     "email": "hxia18@bu.edu",
     "url": "https://hongjiexia18.github.io",
-    "profiles": [
-    ]
+    "profiles": []
   },
-  "work": [
-  ],
-  "volunteer": [
-  ],
+  "work": [],
+  "volunteer": [],
   "education": [
     {
       "institution": "Boston University",
@@ -19,7 +16,7 @@
       "area": "Biology-Neurobiology",
       "studyType": "Ph.D.",
       "startDate": "2019",
-      "endDate": "2026",
+      "endDate": "2026"
     },
     {
       "institution": "Boston University",
@@ -28,7 +25,7 @@
       "area": "Biology-Neurobiology",
       "studyType": "M.S.",
       "startDate": "2018",
-      "endDate": "2019",
+      "endDate": "2019"
     },
     {
       "institution": "Boston University",
@@ -37,15 +34,11 @@
       "area": "Biology - Cell Biology, Molecular Biology & Genetics",
       "studyType": "B.A.",
       "startDate": "2018",
-      "endDate": "2014",
+      "endDate": "2014"
     }
   ],
-  "awards": [
-    
-  ],
-  "certificates": [
-    
-  ],
+  "awards": [],
+  "certificates": [],
   "publications": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
