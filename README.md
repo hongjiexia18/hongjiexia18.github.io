@@ -477,3 +477,12 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/main/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
+## Local photo manager
+
+Run the lightweight local manager from the repository root:
+
+```bash
+pnpm manage
+```
+
+It listens only on `127.0.0.1:4173` and updates `_data/photos.json`, `_data/photo_tags.json`, and `assets/img/photos/`. Use **提交照片变更** to create a Git commit for photo data and assets, then **推送到 GitHub** to trigger the normal Pages deployment workflow. The manager does not run a Jekyll build or publish a local server publicly.
