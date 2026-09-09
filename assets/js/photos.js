@@ -92,5 +92,12 @@
       card.classList.add('is-visible');
     }
   });
+  // Deter casual downloads while keeping the gallery publicly viewable.
+  document.addEventListener('contextmenu', function (event) {
+    if (event.target.closest('.photo-journal img, .photo-image-button, .photo-lightbox img')) event.preventDefault();
+  });
+  document.addEventListener('dragstart', function (event) {
+    if (event.target.closest('.photo-journal img, .photo-image-button, .photo-lightbox img')) event.preventDefault();
+  });
   render();
 })();
