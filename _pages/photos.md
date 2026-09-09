@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Photos
+title: photos
 permalink: /photos/
 nav: true
 nav_order: 5
@@ -11,12 +11,8 @@ description: Personal photography journal
 
 <div class="photo-journal" data-photo-journal>
   <header class="photo-header">
-    <p class="photo-eyebrow">PERSONAL PHOTOGRAPHY JOURNAL</p>
     <div class="photo-heading-row">
-      <div>
-        <h1>Photos</h1>
-        <p class="photo-intro">城市的片刻，山野的呼吸。沿着光，收藏一路的风景。</p>
-      </div>
+      <p class="photo-intro">城市的片刻，山野的呼吸。沿着光，收藏一路的风景。</p>
       <p class="photo-count" data-photo-count>{{ site.data.photos | size }} 张作品</p>
     </div>
   </header>
@@ -52,10 +48,6 @@ description: Personal photography journal
         <button type="button" class="photo-image-button" aria-label="放大查看：{{ photo.title | escape }}" data-photo-open>
           <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async" draggable="false">
         </button>
-        <figcaption>
-          <span class="photo-title">{{ photo.title }}</span>
-          {% if photo.location %}<span class="photo-location">{{ photo.location }}</span>{% endif %}
-        </figcaption>
       </figure>
     {% endfor %}
   </div>
