@@ -46,8 +46,8 @@ description: Personal photography journal
   <div class="photo-grid" data-photo-grid>
     {% for photo in site.data.photos %}
       <figure class="photo-card photo-reveal" data-subjects="{{ photo.subjects | join: ',' }}" data-locations="{{ photo.locationTags | join: ',' }}">
-        <button type="button" class="photo-image-button" aria-label="放大查看：{{ photo.title | escape }}" data-photo-open>
-          <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async" draggable="false">
+        <button type="button" class="photo-image-button" aria-label="放大查看：{{ photo.title | escape }}" data-photo-open oncontextmenu="return false">
+          <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async" draggable="false" oncontextmenu="return false">
         </button>
       </figure>
     {% endfor %}
@@ -57,6 +57,6 @@ description: Personal photography journal
 
 <div class="photo-lightbox" data-photo-lightbox hidden role="dialog" aria-modal="true" aria-label="放大查看图片">
   <button type="button" class="photo-lightbox-close" data-photo-close aria-label="关闭图片">×</button>
-  <img data-photo-lightbox-image alt="" draggable="false">
+  <img data-photo-lightbox-image alt="" draggable="false" oncontextmenu="return false">
 </div>
 <script src="{{ '/assets/js/photos.js' | relative_url }}" defer></script>
